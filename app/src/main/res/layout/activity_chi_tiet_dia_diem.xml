@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="dhbkhn.kien.doan.View.ChiTietDiaDiem.ChiTietDiaDiem">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/khungcanh"
+        android:id="@+id/imgChiTietDiaDiem"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:text="Nhà hàng BBQ"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/tvTenChiTietDiaDiem"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Rate"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_light"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?attr/ratingBarStyleIndicator"
+                android:numStars="2"
+                android:id="@+id/ratingChiTietDiaDiem"
+                android:isIndicator="false"
+                android:rating="4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/but"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/mo_ta"
+            android:textStyle="normal|bold"
+            android:id="@+id/tvMoTaChiTietDiaDiem"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/llDiaChi"
+        >
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@drawable/dinhvi"
+            android:layout_width="25dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:text="48 Vạn Kiếp, Hoàn Kiếm, Hà Nội"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:textStyle="normal|bold"
+            android:layout_margin="5dp"
+            android:id="@+id/tvDiaChiChiTietDiaDiem"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/llChiDuong"
+        >
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@drawable/chiduong"
+            android:layout_width="25dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:hint="Chỉ đường"
+            android:textStyle="normal|bold"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+</LinearLayout>

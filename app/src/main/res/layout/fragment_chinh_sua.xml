@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/khungcanh"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <Button
+            android:text="Chỉnh sửa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/holo_blue_bright" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:background="@android:color/holo_orange_dark" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:text="Tên người dùng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:text="Trần Vũ Hiệp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:id="@+id/tvHoTen"
+            />
+
+        <Button
+            android:text="Chỉnh sửa"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/holo_blue_bright" />
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_orange_dark" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:text="Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:text="tranvuhiep2601@gmai.com"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:id="@+id/tvEmail"
+            />
+
+        <Button
+            android:text="Chỉnh sửa"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/holo_blue_bright" />
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_orange_dark" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:text="Số điện thoại"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_weight="0.15"
+
+            />
+
+        <TextView
+            android:text="0962997515"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            />
+
+        <Button
+            android:text="Chỉnh sửa"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/holo_blue_bright" />
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_orange_dark" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:text="Mật khẩu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.22"
+            android:hint="**********" />
+
+        <Button
+            android:text="Chỉnh sửa"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnChinhSua"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/holo_blue_bright" />
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView5"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng xuất"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_dark"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvDangXuat"
+        />
+
+</LinearLayout>
+
